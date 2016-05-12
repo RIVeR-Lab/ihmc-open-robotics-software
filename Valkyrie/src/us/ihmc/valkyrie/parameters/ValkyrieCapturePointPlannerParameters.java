@@ -119,7 +119,7 @@ public class ValkyrieCapturePointPlannerParameters implements CapturePointPlanne
    @Override
    public double getEntryCMPInsideOffset()
    {
-      return runningOnRealRobot ? 0.02 : 0.006;
+      return runningOnRealRobot ? 0.0 : 0.006;
    }
 
    /** {@inheritDoc} */
@@ -133,7 +133,7 @@ public class ValkyrieCapturePointPlannerParameters implements CapturePointPlanne
    @Override
    public double getEntryCMPForwardOffset()
    {
-      return runningOnRealRobot ? 0.01 : 0.0;
+      return runningOnRealRobot ? 0.0 : 0.0;
    }
 
    /** {@inheritDoc} */
